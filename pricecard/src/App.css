@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.card h4 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: #888;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.card li {
+  padding: 5px 0;
+}
+
+.card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
